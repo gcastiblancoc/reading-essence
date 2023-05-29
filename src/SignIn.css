@@ -1,0 +1,89 @@
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face{
+    font-family: AbyssinicaSIL;
+    src: url(../public/AbyssinicaSIL-Regular.ttf);
+}
+
+
+form .form-inner h2 {
+    color: #bc6c25;
+    font-family: AbyssinicaSIL, Helvetica;
+    font-size: 90px;
+    font-weight: 400;
+    height: 226px; 
+    justify-content: center;
+    left: 550px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 410px;
+}
+
+form .form-inner .form-group1 input {
+    background-color: #dda15e;
+    border-color: #dda15e;
+    border-radius: 20px;
+    border-style: none;
+    height: 53px;
+    left: 556px;
+    position: absolute;
+    top: 359px;
+    width: 393px;
+}
+
+form .form-inner .form-group2 input {
+    background-color: #dda15e;
+    border-color: #dda15e;
+    border-radius: 20px;
+    border-style: none;
+    height: 53px;
+    left: 556px;
+    position: absolute;
+    top: 439px;
+    width: 393px;
+}
+
+form .form-inner .form-group2 {
+    color: #fff;
+}
+
+form .form-inner .button {
+    background-color: #bc6c25;
+    border-radius: 20px;
+    border-style: none;
+    height: 53px;
+    left: 556px;
+    position: absolute;
+    top: 539px;
+    width: 393px;
+}
+
+form .form-inner .you-don-t-have-an-account-signup {
+    color: #bc6c25;
+    font-family: Roboto-Regular, Helvetica;
+    font-size: 15px;
+    font-weight: 600;
+    left: 610px;
+    letter-spacing: 0;
+    line-height: 11px;
+    position: absolute;
+    top: 605px;
+    white-space: nowrap;
+}
+
+.welcome {
+    width: 100%;
+    max-width: 480px;
+}
+
+.App .welcome h2 {
+    color: #bc6c25;
+    font-family: AbyssinicaSIL, Helvetica;
+}
