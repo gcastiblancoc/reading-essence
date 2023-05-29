@@ -1,0 +1,181 @@
+html, body {
+    background-color: #fefae0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.div{
+    background-color: #fefae0;
+    border: 1px none;
+    height: 700px;
+    position: relative;
+    width: 1440px;
+}
+
+@font-face{
+    font-family: AbyssinicaSIL;
+    src: url(../public/AbyssinicaSIL-Regular.ttf);
+}
+
+h1{
+    color: #bc6c25;
+    font-family: AbyssinicaSIL, Helvetica;
+    font-size: 90px;
+    font-weight: 400;
+    height: 226px; 
+    justify-content: center;
+    left: 510px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 410px;
+}
+
+.overlap{
+    background-color: #dda15e;
+    border-radius: 20px;
+    height: 53px;
+    left: 523px;
+    position: absolute;
+    top: 359px;
+    width: 393px;
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../public/Roboto-Regular.ttf);
+}
+
+.username{
+    color: #ffffff;
+    font-family: Roboto-Regular, Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 12px;
+    white-space: nowrap;
+}
+
+.uname{
+    background-color: #dda15e;
+    border-color: #dda15e;
+    border-style: none;
+    border-radius: 10px;
+    color: #ffffff;
+    height: 23px;
+    font-family: Roboto-Regular, Helvetica;
+    white-space: nowrap;
+    width: 345px;
+}
+
+.overlap2 {
+    background-color: #dda15e;
+    border-radius: 20px;
+    height: 53px;
+    left: 523px;
+    position: absolute;
+    top: 426px;
+    width: 393px;
+}
+
+.e {
+    color: #ffffff;
+    font-family: Roboto-Regular, Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 12px;
+    white-space: nowrap;
+    width: 95px;
+}
+
+.pword{
+    background-color: #dda15e;
+    border-color: #dda15e;
+    border-style: none;
+    border-radius: 10px;
+    color: #ffffff;
+    height: 23px;
+    font-family: Roboto-Regular, Helvetica;
+    top: 16px;
+    white-space: nowrap;
+    width: 345px;
+}
+
+.overlap3 {
+    border-radius: 20px;
+    height: 53px;
+    left: 523px;
+    position: absolute;
+    top: 530px;
+    width: 393px;
+}
+
+.rectangle {
+    background-color: #bc6c25;
+    border-radius: 20px;
+    height: 53px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 393px;
+}
+
+.g {
+    color: #ffffff;
+    font-family: Roboto-Regular, Helvetica;
+    font-size: 25px;
+    font-weight: 600;
+    left: 165px;
+    letter-spacing: 0;
+    line-height: 18.3px;
+    position: absolute;
+    top: 16px;
+    white-space: nowrap;
+}
+
+.you-don-t-have-an-account-signup {
+    color: #bc6c25;
+    font-family: Roboto-Regular, Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 595px;
+    letter-spacing: 0;
+    line-height: 11px;
+    position: absolute;
+    top: 590px;
+    white-space: nowrap;
+}
+
+login-screen-desktop.su{
+  left: 595px;
+  top: 590px;
+}
+
+.span1 {
+    color: #bc6c25;
+    font-family: Roboto-Regular, Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 11px;
+}
+
+.span2 {
+    font-weight: 300;
+}
+
+.span3 {
+    font-weight: 700;
+    
+}

@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import {
+    createBrowserRouter,
+    RouterProvider,
+    Route,
+    Routes,
+    useNavigate,
+  } from "react-router-dom";
+import './login.css';
+import './Register.css';
+
+import PrimeraApp from './PrimeraApp';
+import Register from './Register';
+//import Register from './Register';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    //const [currentForm, setCurrentFrom] = useState('primeraApp');
+    
+    /*const toggleForm = (formName) => {
+        setCurrentForm(formName);
+    }*/
+
+    return (
+        <div className='App'>
+        {
+            //currentForm == "PrimeraApp" ? <PrimeraApp  /> : <Real />
+            <Routes>
+              <Route path="/login" element={<PrimeraApp />} />
+              <Route path="/register" element={<Register />} />
+            </Routes>
+        }
+            
+        </div>
+    )
 }
 
 export default App;

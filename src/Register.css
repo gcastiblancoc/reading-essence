@@ -1,0 +1,70 @@
+.registerPage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fefae0; /* Background color of the admin panel */
+  
+    height: 100vh; /* Set the admin panel to cover the entire viewport height */
+    width: 100%; /* Set the admin panel to cover the entire viewport width */
+    margin: 0; /* Remove any default margin */
+}
+  
+.registerPage.formContainer {
+      background-color: #1a1e26;
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+      margin: 0 auto; /* Center align the forms */
+}
+
+.registerPage.h2 {
+        color: #ffffff;
+        margin-bottom: 20px;
+        font-size: 18px;
+}
+  
+.registerPage.formContainer.form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+}
+  
+.registerPage.formContainer.form.formGroup {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+}
+  
+.registerPage.formContainer.form.formGroup.label {
+            color: #3d4073;
+            font-size: 14px;
+}
+  
+.registerPage.formContainer.form.formGroup.input {
+            padding: 8px;
+            border: none;
+            background-color: #324359;
+            color: #ffffff;
+            border-radius: 5px;
+  
+            &:focus {
+              outline: none;
+              box-shadow: 0 0 5px #5abfa3;
+            }
+}
+  
+.registerPage.formContainer.form.button {
+          padding: 10px;
+          background-color: #5abfa3;
+          color: #ffffff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+  
+          &:hover {
+            background-color: #3d4f73;
+          }
+}
